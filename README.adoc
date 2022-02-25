@@ -1,7 +1,9 @@
 Instructions de compilation et d'exécution:
 
 mvn compile
+
 mvn package
+
 java -jar target/tp_qualite-1.0.jar
 
 Générer la documentation:
