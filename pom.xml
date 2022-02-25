@@ -28,7 +28,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>HelloJava</mainClass>
+              <mainClass>main</mainClass>
             </manifest>
           </archive>
         </configuration>
@@ -42,6 +42,15 @@
           <doclint>none</doclint>
         </configuration>
       </plugin>
+
+     <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>3.3.2</version>
+        <configuration>
+        </configuration>
+      </plugin>
+
     </plugins>
   </build>
 </project>
